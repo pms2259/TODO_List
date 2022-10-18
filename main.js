@@ -50,10 +50,9 @@ const paintTodos = () => {
       deleteBtn.innerHTML = 'X';
     
       todoItemEl.appendChild(todoEl);
-      todoItemEl.appendChild(deleteBtn);
-  
+      todoItemEl.appendChild(deleteBtn);  
       todoListEl.appendChild(todoItemEl);
-    })
+    })    
   }
 
 const deleteTodo = (todoId) => {

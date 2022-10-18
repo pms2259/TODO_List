@@ -24,22 +24,23 @@ nav {
     line-height: 130px;
     font-size: 50px;
     font-weight: bold;
-    color: #D46A6A;
+    color: #fff;    
 }
 
 #clock {
     width: 700px;
     height: 130px;
     line-height: 130px;
-    font-size: 30px;
+    font-size: 70px;
     font-weight: bold;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .list_container {
     width: 450px;
     height: 650px;
-    background-color: #fff;
-    background-color: rgba(255, 255, 255, 0.4);
+    /* background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.4); */
     border-radius: 10px;
 }
 
@@ -109,8 +110,13 @@ input {
     font-size: 1rem;
     font-weight: bold;
     color: red;
-    cursor: pointer;
-    background-color: lightgray;
-    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;    
+    background-color: #fff;
     border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.delete_btn:hover {
+    background-color: lightgray;
+    background-color: rgba(0, 0, 0, 0.8);
 }
