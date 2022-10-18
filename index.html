@@ -7,23 +7,27 @@
     <link rel="stylesheet" href="style.css">
     <title>TODO_List</title>
 </head>
-<body>
-    
+<body>    
+    <!-- READ -> DELETE -> CREATE -> UPDATE -->
     <div class="container">
         <nav>
             <div class="title">TO DO LIST</div>
-            <div class="time">현재 시간 구현하기</div>
+            <div id="clock"></div>
         </nav>
         <div class="list_container">
-            <div class="txet_box">
-                <input type="text" id="input">
+            <div class="text_box">
+                <input type="text" id="input" placeholder="해야 할 일을 입력해주세요">
                 <button type="button" id="button"> + </button>
             </div>
 
-            <ul id="list">                
-                <li>Hello</li>
+            <ul id="list">
+                <li class="checked"></li>
+                
             </ul>
-        </div>    
-    <script src="main.js"></script>
+        </div>        
+    </div>  
+    <script src="main.js">
+        
+    </script>
 </body>
 </html>
